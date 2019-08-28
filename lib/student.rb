@@ -20,7 +20,7 @@ def self.create_table
 end
 
 def self.drop_table
-  DB[:conn].execute(DROP TABLE)
+  DB[:conn].execute(DROP TABLE students;)
 
 end
 
