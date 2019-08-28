@@ -4,7 +4,7 @@ attr_accessor :name, :grade
 def initialize(name, grade, id = nil)
   @name = name
   @grade = grade
-  @id = id 
+  @id = id
 end
 
 def self.create_table
@@ -15,10 +15,10 @@ def self.create_table
   grade TEXT
   )
   SQL 
-  
-  
+
+
 
   # Remember, you can access your database connection anywhere in this class
-  #  with DB[:conn]  
-  
+  #  with DB[:conn]
+
 end
