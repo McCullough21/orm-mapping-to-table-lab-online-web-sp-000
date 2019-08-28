@@ -20,9 +20,8 @@ def self.create_table
 end
 
 def self.drop_table
-  <<-SQL
-  DROP TABLE students;
-  SQL
+  DB{:conn].execute(DROP TABLE students;)
+
 end
 
   # Remember, you can access your database connection anywhere in this class
